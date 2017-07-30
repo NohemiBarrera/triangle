@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.twelve.columns#aboutTxt{
+	text-align: left;
+}
+#aboutUsHeader{
+	background-image: url(../img/coming-soon-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+#txtBottom{
+	margin-top: 180px;
+	padding: 20px;
+	text-align: justify;
+}
+.five.columns>a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+.carousel{
+	width: 100%;
+}
+.three.columns{
+	margin:10px;
+	text-align: center;
+	padding: 10px;
+}
+#template{
+	text-align: justify;
+}
+#caracteristicas{
+	text-align: center;
+}
+#tour{
+	margin-top: 50px;
+	border: 1.5px solid turquoise;
+	color: turquoise;
+}
+#bubbles{
+	height: 20vh;
+	background-image: url(../img/home/under.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+#footer{
+	height: 460px;
+	background-image: url(../img/home/footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
