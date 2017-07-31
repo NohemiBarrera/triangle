@@ -53,5 +53,21 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.profile{
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+}
+#submit{
+	background-color: turquoise;
+	color: white;
+	border: 1px solid turquoise;
+}
+.footerForm{
+	width: 100%;
+}
+.redHeader{
+	color: red;
+}
 
 /*# sourceMappingURL=main.css.map */
