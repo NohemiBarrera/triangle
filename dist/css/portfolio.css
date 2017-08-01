@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.five.columns > a {
+  text-decoration: none;
+  padding: 10px;
+  color: black; }
+
+.five.columns > a:hover {
+  color: turquoise; }
+
+#aboutUsHeader {
+  background-image: url(../img/coming-soon-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
+.imgPortfolio {
+  width: 200px;
+  heigth: 200px; }
+
+.three.columns {
+  margin: 0;
+  padding: 40px; }
+
+#bubbles {
+  height: 20vh;
+  background-image: url(../img/home/under.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
+#footer {
+  height: 460px;
+  background-image: url(../img/home/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.profile {
+  height: 90px;
+  width: 90px;
+  padding: 10px; }
+
+#submit {
+  background-color: turquoise;
+  color: white;
+  border: 1px solid turquoise; }
+
+.footerForm {
+  width: 100%; }
+
+.redHeader {
+  color: red; }
+
+/*# sourceMappingURL=portfolio.css.map */
