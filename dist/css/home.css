@@ -1,0 +1,62 @@
+#nerds{
+	background-image: url(../img/home/slider-bg.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 53vh;
+}
+.five.columns > a {
+  text-decoration: none;
+  padding: 10px;
+  color: black; }
+
+.five.columns > a:hover {
+  color: turquoise; }
+#txtCreativeNerds{
+	text-align: justify;
+	margin-top: 10vh;
+}
+.button{
+	border: 1.5px solid turquoise;
+	color: turquoise;
+}
+#midleBar{
+	height: 20vh;
+	background-image: url(../img/coming-soon-bg.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#fortune{
+	text-align: center;
+}
+#ruedaFortuna{
+	height: 45vh;
+}
+#bubbles{
+	height: 20vh;
+	background-image: url(../img/home/under.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+#footer{
+	height: 460px;
+	background-image: url(../img/home/footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.profile{
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+}
+#submit{
+	background-color: turquoise;
+	color: white;
+	border: 1px solid turquoise;
+}
+.footerForm{
+	width: 100%;
+}
+.redHeader{
+	color: red;
+}
