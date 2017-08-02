@@ -21,6 +21,9 @@
 	padding: 10px;
 	color: black;
 }
+.five.columns>a:hover{
+	color: turquoise;
+}
 .carousel{
 	width: 100%;
 }
