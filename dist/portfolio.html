@@ -25,11 +25,9 @@
       </div>
     </div><br>
 	<div class="container-fluid">
-		<div class="row" id="action">
-			
+		<div class="row" id="action">	
 		</div>
 	</div>
-
 	<script type="text/x-handlebars-template" id="index">
 		<div class="container">
 			<div class="row">
@@ -74,63 +72,29 @@
         </div>
       </div>
     </div>
-	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-
 	<script type="text/javascript">
 		var template = document.getElementById("index").innerHTML;
 		var compilar = Handlebars.compile(template);
 		var proyectos = {
 			imagenes: [
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/1.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/2.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/3.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/4.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/5.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/6.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/7.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/8.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/9.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/10.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/11.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/12.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/13.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/14.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/15.jpg" class="imgPortfolio"/>'
-				},
-				{
-					rutaImagen: '<img src="../dist/img/portfolio/16.jpg" class="imgPortfolio"/>'
-				}
+				{rutaImagen: '<img src="../dist/img/portfolio/1.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/2.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/3.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/4.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/5.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/6.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/7.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/8.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/9.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/10.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/11.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/12.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/13.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/14.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/15.jpg" class="imgPortfolio"/>'},
+				{rutaImagen: '<img src="../dist/img/portfolio/16.jpg" class="imgPortfolio"/>'}
 			]
 		};
 		var compiladoHTML = compilar(proyectos);
